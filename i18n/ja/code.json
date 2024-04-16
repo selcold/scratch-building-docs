@@ -1,0 +1,319 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "エラーが発生しました",
+    "description": "ページがクラッシュした場合のフォールバックページのタイトル"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "先頭へ戻る",
+    "description": "トップに戻るボタンのARIAラベル"
+  },
+  "theme.blog.archive.title": {
+    "message": "アーカイブ",
+    "description": "ブログアーカイブページのページタイトルとヒーロータイトル"
+  },
+  "theme.blog.archive.description": {
+    "message": "アーカイブ",
+    "description": "ブログアーカイブページのページとヒーローの説明"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ブログ記事一覧のナビゲーション",
+    "description": "ブログのページネーションのARIAラベル"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "新しい記事",
+    "description": "新しいブログ記事ページへのナビゲーションラベル（前のページ）"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "過去の記事",
+    "description": "過去のブログ記事ページへのナビゲーションラベル（次のページ）"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ブログ記事のナビゲーション",
+    "description": "ブログ記事のページネーションのARIAラベル"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "新しい記事",
+    "description": "新しい/前の記事へのブログ記事ボタンラベル"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "過去の記事",
+    "description": "過去の/次の記事へのブログ記事ボタンラベル"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count}件",
+    "description": "\"{count} posts\"のための複数形ラベル。言語がサポートする複数形を使用してください"
+  },
+  "theme.blog.tagTitle": {
+    "message": "「{tagName}」タグの記事が{nPosts}件あります",
+    "description": "ブログのタグページのタイトル"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "全てのタグを見る",
+    "description": "タグリストページを対象とするリンクのラベル"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ダークモードを切り替える(現在は{mode})",
+    "description": "ナビバーのカラーモード切り替えのARIAラベル"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード",
+    "description": "ダークカラーモードの名前"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード",
+    "description": "ライトカラーモードの名前"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count}項目",
+    "description": "生成されたインデックス内のカテゴリカードに含まれるアイテムの数に関するデフォルトの説明"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリストのナビゲーション",
+    "description": "パンくずリストのARIAラベル"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントページ",
+    "description": "ドキュメントのページネーションのARIAラベル"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ",
+    "description": "前のドキュメントへのナビゲーションラベル"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ",
+    "description": "次のドキュメントへのナビゲーションラベル"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count}記事",
+    "description": "\"{count} docs tagged\"のための複数形ラベル。言語がサポートする複数形を使用してください"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "「{tagName}」タグのついた{nDocsTagged}",
+    "description": "ドキュメントのタグページのタイトル"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "これはリリース前のバージョン{versionLabel}の{siteTitle}のドキュメントです。",
+    "description": "ユーザーがリリース前のドキュメントバージョンを閲覧していることを伝えるラベル"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "これはバージョン{versionLabel}の{siteTitle}のドキュメントで現在はメンテナンスされていません",
+    "description": "ユーザーがメンテナンスされていないドキュメントバージョンを閲覧していることを伝えるラベル"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新のドキュメントは{latestVersionLink} ({versionLabel}) を見てください",
+    "description": "ユーザーに最新バージョンを確認するように伝えるラベル"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新バージョン",
+    "description": "最新バージョンの提案リンクのラベル"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "バージョン: {versionLabel}"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} への直接リンク",
+    "description": "見出しへのリンクのタイトル"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}に",
+    "description": "ページが最後に更新された日付を示すために使用される単語"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が",
+    "description": "ページが最後に更新された人物を示すために使用される単語"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{atDate}{byUser}最終更新",
+    "description": "ページが最後に更新された日付と人物を表示するための文"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "現在のページを編集するためのリンクラベル"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "他のバージョン",
+    "description": "モバイルビューでのナビゲーションバーのバージョンドロップダウンのラベル"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません",
+    "description": "404ページのタイトル"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "タグ:",
+    "description": "タグリストの横に表示されるラベル"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "閉じる",
+    "description": "アナウンスメントバーの閉じるボタンのARIAラベル"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近のブログ記事のナビゲーション",
+    "description": "ブログサイドバーの最近の投稿のARIAラベル"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "Cautionの注意書きのデフォルトラベル"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "Dangerの注意書きのデフォルトラベル"
+  },
+  "theme.admonition.info": {
+    "message": "備考",
+    "description": "Infoの注意書きのデフォルトラベル"
+  },
+  "theme.admonition.note": {
+    "message": "注記",
+    "description": "Noteの注意書きのデフォルトラベル"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "Tipの注意書きのデフォルトラベル"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "Warningの注意書きのデフォルトラベル"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました",
+    "description": "コードブロックのコピーしたボタンラベル"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "クリップボードにコードをコピー",
+    "description": "コードブロックのコピーボタンのARIAラベル"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー",
+    "description": "コードブロックのコピーするボタンラベル"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "折り返し",
+    "description": "コードブロックの行の折り返しボタンのタイトル属性"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}'の目次を開く",
+    "description": "サイドバーカテゴリを展開するためのARIAラベル"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}'の目次を隠す",
+    "description": "サイドバーカテゴリを折りたたむためのARIAラベル"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "ナビゲーション",
+    "description": "メインナビゲーションのARIAラベル"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "他の言語",
+    "description": "モバイル言語切り替えドロップダウンのラベル"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした",
+    "description": "404ページの1番目の段落"
+  },
+  "theme.NotFound.p2": {
+    "message": "このページにリンクしているサイトの所有者にリンクが壊れていることを伝えてください",
+    "description": "404ページの2番目の段落"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの見出し",
+    "description": "折りたたみ可能なTOCコンポーネントのボタンのラベル"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "約{readingTime}分",
+    "description": "\"{readingTime}分読む\"の複数形のラベル。言語がサポートする複数形を使用してください（https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.htmlを参照）"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "パンくずリストでのホームページのARIAラベル"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを隠す",
+    "description": "ドキュメントサイドバーの折りたたみボタンのタイトル属性"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを隠す",
+    "description": "ドキュメントサイドバーの折りたたみボタンのタイトル属性"
+  },
+  "theme.blog.post.readMore": {
+    "message": "もっと見る",
+    "description": "ブログ記事の抜粋で使用される、フルブログ記事へのリンクのラベル"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title}についてもっと見る",
+    "description": "抜粋からフルブログ記事へのリンクのARIAラベル"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントのサイドバー",
+    "description": "サイドバーナビゲーションのARIAラベル"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← メインメニューに戻る",
+    "description": "モバイルナビゲーションバーサイドバーのセカンダリメニュー内の戻るボタンのラベル（ドキュメントサイドバーを表示するために特に使用される）"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを閉じる",
+    "description": "モバイルサイドバーの閉じるボタンのARIAラベル"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを開く",
+    "description": "ドキュメントサイドバーの展開ボタンのARIAラベルとタイトル属性"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを開く",
+    "description": "ドキュメントサイドバーの展開ボタンのARIAラベルとタイトル属性"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを開く",
+    "description": "モバイルナビゲーションのハンバーガーメニューボタンのARIAラベル"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "もう一度試してください",
+    "description": "Reactのエラーバウンダリがエラーをキャッチしたときにレンダリングを再試行するためのボタンのラベル"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツまでスキップ",
+    "description": "アクセシビリティ用のコンテンツへのスキップラベル、キーボードのタブ/エンターナビゲーションでメインコンテンツに迅速に移動することを可能にする"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "タグ",
+    "description": "タグリストページのタイトル"
+  },
+  "theme.unlistedContent.title": {
+    "message": "非公開のページ",
+    "description": "非公開コンテンツバナーのタイトル"
+  },
+  "theme.unlistedContent.message": {
+    "message": "このページは非公開です。 検索対象外となり、このページのリンクに直接アクセスできるユーザーのみに公開されます。",
+    "description": "非公開コンテンツバナーメッセージ"
+  },
+  "Scratch Building Docs": {
+    "message": "ビル経営ゲーム Docs"
+  },
+  "Run a building with Scratch!": {
+    "message": "Scratchでビルを経営しよう！"
+  },
+  "Read the Docs": {
+    "message": "ドキュメントを読む"
+  },
+  "High degree of freedom": {
+    "message": "高い自由度"
+  },
+  "The game offers a variety of features and high freedom for players. Progress through the game in your own way and enjoy playing!": {
+    "message": "ゲームには多彩な機能があり、プレイヤーに高い自由度を提供しています。自分のスタイルでゲームを進め、楽しんでプレイしましょう！"
+  },
+  "Abundant elements": {
+    "message": "豊富な要素"
+  },
+  "The game frequently receives updates to add and enhance various elements, making it more enjoyable and superior.": {
+    "message": "ゲームは頻繁にアップデートされ、さまざまな要素が追加や改良され、より楽しく、優れたものになります。"
+  },
+  "Real-time features": {
+    "message": "リアルタイム機能"
+  },
+  "Experience real-time profile creation, chat, and saving with our game using Scratch's cloud variables.": {
+    "message": "Scratchのクラウド変数を使ったゲームで、リアルタイムのプロフィールやチャット、セーブが可能です。"
+  },
+  "Changelog": {
+    "message": "変更履歴"
+  }
+}

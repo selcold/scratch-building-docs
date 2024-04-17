@@ -77,6 +77,7 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/ScratchBuilding-cocial-card.png',
+    description: "This website hosts the official Scratch Building documentation site.",
     navbar: {
       title: 'Scratch Building Docs',
       logo: {

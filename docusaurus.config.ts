@@ -153,6 +153,25 @@ const config: Config = {
       ],
       copyright: `Copyright © 2024 Scratch Building. Developed by Selcold.`,
     },
+    liveCodeBlock: {
+      playgroundPosition: 'bottom',
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    announcementBar: {
+      id: 'announcementBar-v3.2', // Increment on change
+      // content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
+      content: `🎉️ <b><a target="_blank" href="https://scratch.mit.edu/projects/927111186/">Scratch Building 7.1</a></b> 🥳️`,
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

@@ -75,15 +75,66 @@ const config: Config = {
   ],
 
   themeConfig: {
+    liveCodeBlock: {
+      playgroundPosition: 'bottom',
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    announcementBar: {
+      id: 'announcementBar-v1.1.1', // Increment on change
+      // content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
+      content: `🎉️ <b><a target="_blank" href="https://scratch.mit.edu/projects/927111186/">Scratch Building 7.1.1</a></b> 🥳️`,
+    },
+    prism: {
+      additionalLanguages: [
+        'java',
+        'latex',
+        'haskell',
+        'matlab',
+        'PHp',
+        'powershell',
+        'bash',
+        'diff',
+        'json',
+        'scss',
+      ],
+      magicComments: [
+        {
+          className: 'theme-code-block-highlighted-line',
+          line: 'highlight-next-line',
+          block: {start: 'highlight-start', end: 'highlight-end'},
+        },
+        {
+          className: 'code-block-error-line',
+          line: 'This will error',
+        },
+      ],
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
     // Replace with your project's social card
     image: 'img/ScratchBuilding-cocial-card.png',
     description: "This website hosts the official Scratch Building documentation site.",
     metadata: [
     ],
+    algolia: {
+      appId: 'RQVUKQUMH1',
+      apiKey: 'b3e0da193276d983e4ce1128d9b8448b',
+      indexName: 'scratch-building-vercel',
+    },
     navbar: {
       title: 'Scratch Building Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Scratch Building Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -141,6 +192,10 @@ const config: Config = {
           title: 'More',
           items: [
             {
+              label: 'Support',
+              to: 'https://forms.gle/RGZ3WZepiuVwDpv39',
+            },
+            {
               label: 'Blog',
               to: '/blog',
             },
@@ -151,30 +206,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2024 Scratch Building. Developed by Selcold.`,
-    },
-    liveCodeBlock: {
-      playgroundPosition: 'bottom',
-    },
-    docs: {
-      sidebar: {
-        hideable: true,
-        autoCollapseCategories: true,
-      },
-    },
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-    },
-    announcementBar: {
-      id: 'announcementBar-v3.2', // Increment on change
-      // content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
-      content: `🎉️ <b><a target="_blank" href="https://scratch.mit.edu/projects/927111186/">Scratch Building 7.1</a></b> 🥳️`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      copyright: `Copyright © 2024 selcold. Built with Docusaurus.`,
     },
   } satisfies Preset.ThemeConfig,
 };
